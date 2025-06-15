@@ -23,21 +23,19 @@
     <header>
       <h1>Bookshelf App</h1>
     </header>
-
     <main>
-      <div class="tambahBuku">
-        <section>
-          <h2>Tambah Buku Baru</h2>
-          <form id="bookForm" data-testid="bookForm">
-            <div>
-              <label for="bookFormTitle">Judul</label>
-              <br />
-              <input
-                id="bookFormTitle"
-                type="text"
-                required
-                data-testid="bookFormTitleInput"
-                class="inputAdd"
+      <section>
+        <h2>Tambah Buku Baru</h2>
+         <form id="bookForm" data-testid="bookForm">
+           <div>
+            <label for="bookFormTitle">Judul</label>
+             <br />
+            <input
+               id="bookFormTitle"
+               type="text"
+               required
+               data-testid="bookFormTitleInput"
+               class="inputAdd"
               />
             </div>
             <div>
@@ -87,32 +85,6 @@
           <h2>Selesai dibaca</h2>
           <div id="completeBookList" data-testid="completeBookList"></div>
         </section>
-      </div>
-      <div class="cariBuku">
-        <section>
-          <h2>Cari Buku</h2>
-          <form id="searchBook" data-testid="searchBookForm">
-            <label for="searchBookTitle">Judul</label>
-            <input
-              id="searchBookTitle"
-              type="text"
-              data-testid="searchBookFormTitleInput"
-              class="inputSearch"
-            />
-            <button
-              id="searchSubmit"
-              type="submit"
-              data-testid="searchBookFormSubmitButton"
-            >
-              Cari
-            </button>
-          </form>
-        </section>
-        <section>
-          <h2>Hasil pencarian</h2>
-          <h3 id="searchResults"></h3>
-        </section>
-      </div>
-    </main>
+     </main>
   </body>
 </html>
